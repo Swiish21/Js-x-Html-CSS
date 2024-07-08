@@ -5,7 +5,7 @@ function displayName() {
 
 console.log(displayName());
 
-
+// below is a function that adds two numbers, and returns the result.
 function math_opps() {
     var a = 5;
     var b = 10;
