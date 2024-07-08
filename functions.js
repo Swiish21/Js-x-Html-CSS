@@ -1,3 +1,4 @@
+// this is a function that returns the name "John"
 function displayName() {
     name = "John";
     return name;
