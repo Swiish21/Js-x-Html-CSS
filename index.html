@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions on Javascript</title>
+</head>
+<body>
+    <h2>Javascript Functions</h2>
+
+    <button id="greetings_btn" onclick="alert(display_sum());">
+        Click to see result of adding two numbers
+    </button>
+
+    <button id="greetings_btn2" onclick="alert(display_mall());">
+        Click to see name of person
+    </button>
+
+    <script>
+        function display_sum() {
+            var a = 10;
+            var b = 20;
+            var result = a + b;
+            alert(result); 
+        }
+
+        function display_mall() {
+            name = "Malcom";
+            alert("My name is " + name);
+        }
+    </script>
+</body>
+</html>
